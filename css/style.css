@@ -2,6 +2,13 @@ html,
 body {
 	height: 100%;
 	background-color: #fff;
+	font-family: test;
+	font-size: 20px;
+}
+
+@font-face {
+	font-family: test;
+	src: url('../alex-brush.regular.ttf');
 }
 
 body {
@@ -13,7 +20,6 @@ body {
 	background-size: 100em;
 	background-repeat: no-repeat;
 }
-
 a,
 a:focus,
 a:hover {
